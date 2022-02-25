@@ -37,6 +37,14 @@
   }
 }
 
+.avatar {
+  float: right;
+  width: 8rem;
+  height: 8rem;
+  margin-top: var(--spacer);
+  border-radius: 50%;
+}
+
 .nav-list {  
   padding: 0;
   margin: var(--spacer) 0 0 0;

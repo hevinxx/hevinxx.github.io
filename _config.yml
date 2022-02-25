@@ -18,14 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 코드리스
+title: 해빈의 코드리스
 tagline: 가급적 코드 없는 개발 블로그
 email: hevinxx@gmail.com
 description: "가급적 코드 없는 개발 블로그"
 lang: ko
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-author.name: Hevin Mun
+author:
+  name: Hevin Mun
+  avatar: https://avatars.githubusercontent.com/u/34952833?v=4
+  url: https://github.com/hevinxx
 github_username: hevinxx
 
 # Build settings
