@@ -23,15 +23,15 @@ tagline: 가급적 코드 없는 개발 블로그
 email: hevinxx@gmail.com
 description: "가급적 코드 없는 개발 블로그"
 lang: ko
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author.name: Hevin Mun
 github_username: hevinxx
 
 # Build settings
-theme: monophase
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
