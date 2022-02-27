@@ -30,6 +30,8 @@ author:
   avatar: https://avatars.githubusercontent.com/u/34952833?v=4
   url: https://github.com/hevinxx
 github_username: hevinxx
+categories_path: /categories/
+tags_path: /tags/
 
 # Build settings
 plugins:

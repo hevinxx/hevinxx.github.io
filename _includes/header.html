@@ -2,10 +2,10 @@
   <div class="masthead-title">
     <a href="{{ '/' | relative_url }}" title="Home">{{ site.title }}</a>
     <small class="tagline">{{ site.tagline }}</small>
-    {% if site.author %}
-      <img class="avatar" src="{{ site.author.avatar | relative_url }}" itemprop="image" class="u-photo">
-    {% endif %}
   </div>
+  {% if site.author %}
+    <img class="avatar" src="{{ site.author.avatar | relative_url }}" itemprop="image" class="u-photo">
+  {% endif %}
   {% if site.data.navigation %}
     <nav class="nav">
       <ul class="nav-list">

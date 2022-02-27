@@ -41,15 +41,13 @@
   float: right;
   width: 8rem;
   height: 8rem;
-  margin-top: var(--spacer);
+  margin-top: var(--spacer-3);
   border-radius: 50%;
 }
 
 .nav-list {  
   padding: 0;
   margin: var(--spacer) 0 0 0;
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
   list-style: none;
 
   li {
@@ -62,12 +60,12 @@
 
     &:hover,
     &:focus {
-      text-decoration: line-through;
+      font-style: italic;
     }
   }
 
   a.current {
-    text-decoration: line-through;
+    font-style: italic;
   }
 }
 
