@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Tags
+title: 태그
 permalink: /tags/
 type: tags
 ---

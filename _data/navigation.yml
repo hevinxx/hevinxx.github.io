@@ -1,6 +1,8 @@
-- title: About
+- title: 피드
+  url: /feed/
+- title: 해빈
   url: /about/
-- title: Categories
+- title: 카테고리
   url: /categories/
-- title: Tags
+- title: 태그
   url: /tags/

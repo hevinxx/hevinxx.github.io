@@ -60,12 +60,12 @@
 
     &:hover,
     &:focus {
-      font-style: italic;
+      font-weight: bold;
     }
   }
 
   a.current {
-    font-style: italic;
+    font-weight: bold;
   }
 }
 
