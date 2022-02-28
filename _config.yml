@@ -24,7 +24,7 @@ email: hevinxx@gmail.com
 description: "가급적 코드 없는 개발 블로그"
 lang: ko
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hevinxx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Hevin Mun
   avatar: https://avatars.githubusercontent.com/u/34952833?v=4
@@ -39,7 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-disqus: "hevinxx"
+disqus: hevinxx
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
