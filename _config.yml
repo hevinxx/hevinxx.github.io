@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 해빈의 코드리스
+title: 코드리스
 tagline: 가급적 코드 없는 개발 블로그
 email: hevinxx@gmail.com
 description: "가급적 코드 없는 개발 블로그"
