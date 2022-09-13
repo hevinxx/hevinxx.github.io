@@ -63,10 +63,21 @@ layout: default
   </div>
 
   {{ content }}
-
-  {% if site.disqus and page.comments != false %}
-    {% include disqus.html %}
+  {% if page.applause_button %}
+  <div style="width: 100%; height: 150px; display: flex; justify-content: center; align-items: center;">
+    <applause-button 
+      style="width: 70px; height: 70px;" 
+      multiclap="true"
+      color="var(--link-color)"/>
+  </div>
   {% endif %}
+  <script src="https://utteranc.es/client.js"
+    repo="hevinxx/hevinxx.github.io"
+    issue-term="pathname"
+    theme="github-dark"
+    crossorigin="anonymous"
+    async>
+  </script>
 </article>
 
 {% if site.related_posts != empty %}
