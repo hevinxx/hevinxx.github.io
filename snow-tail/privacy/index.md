@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: snowtail
+lang: ko
 title: Snow Tail 개인정보처리방침
 permalink: /snow-tail/privacy/
 sitemap: true

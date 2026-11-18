@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: snowtail
+lang: en
 title: Snow Tail Privacy Policy
 permalink: /snow-tail/privacy/en/
 sitemap: true

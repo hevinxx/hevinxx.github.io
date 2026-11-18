@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'ko' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="{{ 'assets/normalize.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/open-color.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/monophase/styles.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <article class="page">
+          <h1 class="page-title">{{ page.title }}</h1>
+          {{ content }}
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
