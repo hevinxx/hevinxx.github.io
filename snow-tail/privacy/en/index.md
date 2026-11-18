@@ -58,7 +58,7 @@ Ad providers may use your advertising ID to show ads based on your interests.
 
 - Android: Settings → Google → Ads → Delete advertising ID
 - iOS: Choose "Ask App Not to Track" when the Game asks, or turn tracking off in Settings → Privacy & Security → Tracking.
-- In regions that require consent, use "Privacy settings" on the Game's title screen to change your ad consent.
+- In regions that require consent, use "Settings" (설정) on the Game's title screen to change your ad consent.
 
 If you opt out, you still see ads, but they are not based on your interests.
 
