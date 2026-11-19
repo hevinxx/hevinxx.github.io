@@ -8,14 +8,13 @@ sitemap: true
 
 <script>
   // 공유 링크로 들어오면 기기 스토어로 바로 보낸다 (Snow Tail Specs/presentation/share.md #링크).
-  // iOS는 App Store 출시 전이라 이 페이지에 머문다 — 출시하면 IOS_URL을 채운다.
   (function () {
     var ANDROID_URL = "https://play.google.com/store/apps/details?id=io.hevinxx.snowtail";
-    var IOS_URL = "";
+    var IOS_URL = "https://apps.apple.com/app/id6836663697";
     var ua = navigator.userAgent || "";
     var ios = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
     if (/Android/i.test(ua)) location.replace(ANDROID_URL);
-    else if (ios && IOS_URL) location.replace(IOS_URL);
+    else if (ios) location.replace(IOS_URL);
   })();
 </script>
 
@@ -28,7 +27,7 @@ A casual puzzle-action game: roll down the mountain, collect 3 snowballs of the 
 ## 다운로드 · Download
 
 - [Android (Google Play)](https://play.google.com/store/apps/details?id=io.hevinxx.snowtail)
-- iOS (App Store): 출시 준비 중 · Coming soon
+- [iOS (App Store)](https://apps.apple.com/app/id6836663697)
 
 ## 안내 · Info
 
